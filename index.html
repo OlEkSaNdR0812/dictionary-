@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="jquery/jquery-3.6.1.js"></script>
+    <title>Dictionary++</title>
+</head>
+<body>
+    <div class="Window" id="Modal">
+        <div class="modal">
+            <div id="Message"></div>
+            <button class="button">Повторити</button>
+        </div>
+    </div>
+	<div class="Radio">
+	<input type="checkbox" id="easy" name="field1"  >
+	<label for="field1" >Легкий </label>
+	<input type="checkbox" id="midl" name="field2" >
+	<label for="field2">Середній</label>
+	<input type="checkbox" id="hard" name="field3" >
+	<label for="field3">Складний</label><br>
+	<button id="agree">Підтвердити</button>
+	</div>
+		 <div class="title">Статистика</div>    
+	<div id="Score">
+        <span id="True" class="scCounter">0/10</span>
+        <span id="False" class="scCounter">0/10</span>
+    </div><br>
+    <div id="Card"></div>
+    <div id="Counter">1/10</div>
+    <div><input class="input1" type="text" placeholder="Введіть переклад"></div>
+    <button class="ui-button ui-widget ui-corner-all">Наступне</button>
+    <script src="script/script.js"></script>
+</body>
+</html>
